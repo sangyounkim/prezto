@@ -11,3 +11,7 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
 fi
 
 # Customize to your needs...
+
+# MySQL with auto-completion.
+alias mysql="mysql -u root -p"
+alias pdfconcat='/System/Library/Automator/Combine\ PDF\ Pages.action/Contents/Resources/join.py'
